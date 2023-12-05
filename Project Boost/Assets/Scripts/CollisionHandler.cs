@@ -103,7 +103,6 @@ public class CollisionHandler : MonoBehaviour
         Invoke("loadNext", delay);
         audioSource.PlayOneShot(success);
         successParticles.Play();
-        print("load man fircking hell");
     }
 
     void loadNext()
